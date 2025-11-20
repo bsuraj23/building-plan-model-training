@@ -1,0 +1,35 @@
+# YOLOv8 Dataset Configuration for Building Plan Asset Detection
+# Update paths and class names according to your dataset
+
+path: dataset  # Root directory of dataset
+train: images/train  # Training images relative to 'path'
+val: images/val      # Validation images relative to 'path'
+
+# Number of classes
+nc: 5
+
+# Class names (update these based on your building plan symbols)
+names:
+  0: switch
+  1: lamp
+  2: pipe
+  3: vent
+  4: duct
+
+# Optional: Test set
+# test: images/test
+
+# Optional: Class colors for visualization (BGR format)
+# colors:
+#   0: [255, 0, 0]
+#   1: [0, 255, 0]
+#   2: [0, 0, 255]
+#   3: [255, 255, 0]
+#   4: [255, 0, 255]
+
+# Notes:
+# - Update 'nc' to match the actual number of classes in your dataset
+# - Update 'names' with your specific building plan symbols/assets
+# - Ensure your dataset follows YOLO format with matching folder structure
+# - Images should be in dataset/images/train and dataset/images/val
+# - Annotations should be in dataset/labels/train and dataset/labels/val
