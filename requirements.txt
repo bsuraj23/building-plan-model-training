@@ -1,0 +1,25 @@
+# Core dependencies for building plan model training
+
+# Computer Vision & ML
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+
+# PDF Processing
+pdf2image>=1.16.0
+Pillow>=10.0.0
+poppler-utils
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: For annotation tools
+# labelImg
+# cvat-sdk
